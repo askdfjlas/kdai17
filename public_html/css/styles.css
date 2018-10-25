@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(43, 46, 73);
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+#canvas {
+  position: absolute;
+  display: block
+}
+
+#listContent {
+  z-index: 1;
+}

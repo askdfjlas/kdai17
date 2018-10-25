@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant identification</title>
+    <meta charset="UTF-8"/>
+    <script src="js/getdata.js"></script>
+    <script src="js/questions.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type = "text/css">
+</head>
+<body onload="init()">
+<div class = "container">
+  <div id = "fadebox">
+    <span id = "pre">
+      <div class = "questionBox">
+        <div class = "questionNo">
+          <div class = "center">
+            <p id = "pre_num"></p>
+          </div>
+        </div>
+        <div class = "questionTextBox">
+          <span class = "questionText">
+            <p id="pre_question"></p>
+          </span>
+        </div>
+      </div>
+      <div class = "buttonSection">
+        <div class = "buttonFitter">
+          <button class = "buttonYesNo" onclick="pre_answers(true)">Yes</button>
+          <button class = "buttonYesNo" onclick="pre_answers(false)">No</button>
+        </div>
+      </div>
+    </span>
+    <div id="post">
+      <div class = "questionBox">
+        <div class = "questionNo">
+          <div class = "center">
+            <p id = "post_num"></p>
+          </div>
+        </div>
+        <div class = "questionTextBox">
+          <div class = "questionText">
+            <p id="post_question"></p>
+          </div>
+        </div>
+      </div>
+      <div id = "post_buttons" class = "buttonSection"></div>
+    </div>
+    <div id = "final">
+      <div id = "identified">
+        <p style = "font-size: 3vh; font-weight: bold; color: rgb(30, 100, 70);
+        text-align: center">
+          Your plant is the...</p>
+          <br>
+        <p id = "commonText"></p></div>
+      <div id = "finalImage"></div>
+      <div id = "reset_btn">
+        <button id = "res" class = "reset" onclick="reset()"
+        style = "border: 0.5vh solid rgb(30, 100, 70);">Play Again!</button>
+      </div>
+    </div>
+    <div id = "results">
+      <p id = "result_text" style = "margin: 1.5vh;"></p>
+    </div>
+    <div id = "back">
+      <button onclick = "go_back()" id = "backbtn">&#8249; Back</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

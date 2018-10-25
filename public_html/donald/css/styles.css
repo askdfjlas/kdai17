@@ -1,0 +1,192 @@
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+        .container {
+                width: 100vw;
+        }
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#results {
+  position: absolute;
+  top: 80.433%;
+  height: 16%;
+  left: 40%;
+  width: 53%;
+  color: rgb(30, 100, 70);
+  font-weight: bold;
+  font-size: 2vh;
+  background-color: rgb(220,251,220);
+  border: 0.5vh solid rgb(30, 100, 70);
+	border-radius: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#identified {
+	position: absolute;
+	top: 2.811%;
+	left: 5%;
+	width: 90%;
+	height: 15%;
+	background-color: rgb(220,251,220);
+	border: 0.5vh solid rgb(30, 100, 70);
+	border-radius: 2vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#commonText {
+	text-align: center;
+	color:rgb(180, 0, 0);
+	font-weight: bold;
+	font-size: 3vh;
+}
+
+#finalImage {
+	position: absolute;
+	top: 20.622%;
+	left: 5%;
+	width: 90%;
+	height: 30%;
+}
+
+.container {
+	background-color: rgb(160, 220, 160);
+	position: relative;
+	width: 56.22vh;
+	height: 100vh;
+	margin: auto;
+}
+
+body {
+	font-family: "Verdana";
+	margin: 0;
+	padding: 0;
+}
+
+.questionBox {
+	background-color: rgb(220,251,220);
+	position: absolute;
+	left: 5%;
+	top: 2.811%;
+	height: 11.2%;
+	width: 88%;
+  border: 0.5vh solid rgb(30, 100, 70);
+	border-radius: 2vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.questionNo {
+	background-color: rgb(30, 100, 70);
+	position: absolute;
+	left: -0.2%;
+	top: -1%;
+	border-radius: 1vh 0 0 1vh;
+	width: 15%;
+  color: white;
+}
+
+.questionTextBox {
+	position: absolute;
+	display: table;
+	left: 18%;
+	height: 100%;
+	width: 78%;
+}
+
+.questionText {
+	display: table-cell;
+	vertical-align: middle;
+	color: rgb(30, 100, 70);
+  font-size: 2.8vh;
+	font-weight: bold;
+}
+
+.buttonFitter {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-row-gap: 1%;
+}
+
+button {
+	width: 100%;
+	background-color: rgb(220,251,220);
+	color: rgb(30, 100, 70);
+	border-radius: 2vh;
+	border: 0.3vh solid rgb(30, 100, 70);
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 3vh;
+	text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (hover: hover) {
+	button:hover {
+		background-color: rgb(200,250,220);
+	}
+}
+
+.buttonSection {
+	position: absolute;
+	left: 5%;
+	top: 17.622%;
+	height: 60%;
+	width: 90%;
+}
+
+.buttonYesNo, .buttonYN {
+  font-size: 5vh;
+  text-align: center;
+  border: 0.6vh solid rgb(30, 100, 70);
+}
+
+.buttonStripes {
+  font-size: 3.5vh;
+  text-align: center;
+  border: 0.6vh solid rgb(30, 100, 70);
+}
+
+.center {
+	line-height: 11.5vh;
+	text-align: center;
+	font-size: 3.5vh;
+	font-weight: bold;
+}
+
+#back {
+  position: absolute;
+  left: 5%;
+  width: 30%;
+  top: 80.4%;
+  height: 17.1%;
+}
+
+#backbtn {
+  height: 100%;
+  border: 0.5vh solid rgb(30, 100, 70);
+	border-radius: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-size: 3.5vh;
+  padding: 2vh;
+}
+
+.reset {
+	position: absolute;
+	left: 5%;
+	top: 72.244%;
+	height: 20%;
+	width: 90%;
+	font-size: 5vh;
+	text-align: center;
+}
+
+#fadebox {
+  opacity: 1;
+  transition: .4s;
+}
