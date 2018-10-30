@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="/partials/js/banner.js"></script>
+    <script src="/~kdai17/partials/js/banner.js"></script>
     <style>
       body {
         margin: 0;
@@ -16,7 +16,7 @@
         position: absolute;
         display: block;
         top: 0;
-        background-image: url('/partials/img/banner.jpg');
+        background-image: url('/~kdai17/partials/img/banner.jpg');
         background-size: 100% auto;
         background-position: center 50%;
         opacity: .8;
